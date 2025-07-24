@@ -16,3 +16,12 @@ Proyecto académico que implementa un servidor HTTPS multihilo en Java, con aute
 - Cookies	    Mantenimiento de sesión por usuario
 - Logger	    Registro de errores y eventos
 - HTML + CSS	Interfaz embebida directamente en clases Java
+
+📁 Estructura del proyecto
+
+📦Martin_Robles_Jesus_Tarea4PSP_ServidorHTTPS_Juegos
+ ┣ 📜 Paginas.java              ← HTML de los juegos y formularios
+ ┣ 📜 SesionJuego.java          ← Clase que almacena el estado por sesión
+ ┣ 📜 ServidorHttps.java        ← Lógica principal, sockets y rutas
+ ┣ 📜 usuarios.txt              ← Registro de usuarios (local)
+ ┣ 📜 logErrores.txt            ← Registro de errores con Logger
